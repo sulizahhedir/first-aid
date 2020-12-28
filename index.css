@@ -69,8 +69,8 @@ body {
   cursor:pointer;
 }
 
-#button1 a, 
-#button2 a{
+#button1 , 
+#button2 {
   text-decoration: none;
   color: white;
 }
