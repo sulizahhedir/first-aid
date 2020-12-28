@@ -1,0 +1,45 @@
+  <!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge'>
+
+		<title> Drag and Drop </title>
+		<link href="https://ue.fontawesome.com/release/v5.9.0/css/all.css rel="stylesheet">
+		<link href="game2.css" rel="stylesheet">
+		<script src="game2.js" defer></script>
+	</head>
+  <body>
+	<h1 class="page-title">Drag and Drop</h1>
+  <center><h2 class = "desc"> Drag and Drop the following cards to the box provided according to the correct steps.</h2><br>
+  </body>
+  <div>
+  <section class="draggable-elements">
+	<img class="step 1 draggable" src="Assets/Images/game7.png" id="step7">
+	<img class="step 2 draggable" src="Assets/Images/game3.png" id="step3">
+	<img class="step 3 draggable" src="Assets/Images/game5.png" id="step5">
+	<img class="step 4 draggable" src="Assets/Images/game2.png" id="step2">
+	<img class="step 5 draggable" src="Assets/Images/game8.png" id="step8">
+	<img class="step 6 draggable" src="Assets/Images/game4.png" id="step4">
+	<img class="step 7 draggable" src="Assets/Images/game6.png" id="step6">
+	<img class="step 8 draggable" src="Assets/Images/game1.png" id="step1">
+    <!-- <i class="fas fa-horse draggable" draggable="true" style="color: #333333;" id="horse"></i>
+    <i class="fas fa-hippo draggable" draggable="true" style="color: #ff9f40;" id="hippo"></i>
+    <i class="fas fa-spider draggable" draggable="true" style="color: #ff99cc;" id="spider"></i> -->
+  </section>
+  <section class="droppable-elements">
+    <div class="droppable" data-draggable-id="step1"><span>Step 1</span></div>
+    <div class="droppable" data-draggable-id="step2"><span>Step 2</span></div>
+    <div class="droppable" data-draggable-id="step3"><span>Step 3</span></div>
+    <div class="droppable" data-draggable-id="step4"><span>Step 4</span></div>
+    <div class="droppable" data-draggable-id="step5"><span>Step 5</span></div>
+	<div class="droppable" data-draggable-id="step6"><span>Step 6</span></div>
+	<div class="droppable" data-draggable-id="step7"><span>Step 7</span></div>
+	<div class="droppable" data-draggable-id="step8"><span>Step 8</span></div>
+    <!-- <div class="droppable" data-draggable-id="spider"><span>Spider</span></div>
+    <div class="droppable" data-draggable-id="horse"><span>Horse</span></div>
+    <div class="droppable" data-draggable-id="hippo"><span>Hippo</span></div> -->
+  </section>
+  </div>

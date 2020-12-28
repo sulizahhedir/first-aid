@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Libre";
+	src: url("Assets/Font/libre.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Lora";
+	src: url("Assets/Font/lora.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+  cursor: url(Assets/Cursors/1.cur), auto;
+  text-align: center;
+  font-family: serif;
+}
+
+body {
+ margin: 0;
+  background: linear-gradient(to bottom right, #D06CD4, #FFFF57);
+}
+
+.page-title {
+  color: #141414;
+  font-family: Libre, serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 4em;
+}
+
+.title {
+  color: #141414;
+  font-family: Lora, serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 2em;
+}
+
+.desc1 {
+  width: 640px;
+  padding: 10px;
+  background-color: white;
+  border: 5px solid purple;
+  margin: auto;
+  text-align: center;
+}
+
+.desc2 {
+  width: 640px;
+  padding: 10px;
+  background-color: white;
+  border: 5px solid yellow;
+  margin: auto;
+  text-align: center;
+}
+
+#button1,
+#button2{
+
+  padding: 14px 40px;
+  border: 0.5px solid black;
+  border-radius: 12px;
+  text-align: center;
+  display: inline-block;
+  cursor:pointer;
+}
+
+#button1 a, 
+#button2 a{
+  text-decoration: none;
+  color: white;
+}
+
+#button1{
+  background-color: purple;
+}
+
+#button1:hover{ 
+  background-color: violet;
+}
+
+#button2 {
+  background-color: orange;
+}
+
+#button2:hover {
+  background-color: yellow;
+}
+
+
+
