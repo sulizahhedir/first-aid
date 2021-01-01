@@ -15,15 +15,29 @@
 html {
   min-height: 100vh;
   cursor: url(Assets/Cursors/1.cur), auto;
-  text-align: center;
-  font-family: serif;
+  text-align: justify;
+  font-family: arial;
 }
 
 body {
- margin: 0;
-  background: linear-gradient(to bottom right, #D06CD4, #FFFF57);
+ margin: 1;
+  background: #E2E2E2;
+}
+* {
+  box-sizing: border-box;
 }
 
+.row {
+  display: flex;
+  background: white;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  gap: 40px; /* Should be removed. Only for demonstration */
+}
 .page-title {
   color: #141414;
   font-family: Libre, serif;
@@ -38,24 +52,33 @@ body {
   font-weight: normal;
   text-align: center;
   font-size: 2em;
+  padding: 5px;
+}
+.title1 {
+  color: white;
+  background: black;
+  font-family: Lora, serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 2em;
+  padding: 5px;
 }
 
 .desc1 {
   width: 640px;
   padding: 10px;
   background-color: white;
-  border: 5px solid purple;
+  text-align: justify;
   margin: auto;
-  text-align: center;
+  color: black;
 }
 
 .desc2 {
   width: 640px;
   padding: 10px;
   background-color: white;
-  border: 5px solid yellow;
   margin: auto;
-  text-align: center;
+  text-align: justify;
 }
 
 #button1,
@@ -90,6 +113,7 @@ body {
 #button2:hover {
   background-color: yellow;
 }
+
 
 
 

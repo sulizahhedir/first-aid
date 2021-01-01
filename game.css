@@ -79,7 +79,7 @@ body {
 .game-container {
   margin: 50px auto;
   display: grid;
-  grid-template-columns: repeat(8, auto);
+  grid-template-columns: repeat(5, auto);
   grid-gap: 10px;
   justify-content: center;
   perspective: 500px;
@@ -87,9 +87,9 @@ body {
 
 .card {
   position: relative;
-  cursor: url("Assets/cursor/4.cur"), auto;
+  cursor: url("Assets/Cursors/GhostHover.cur"), auto;
   height: 246px;
-  width: 141px;
+  width: 200px;
 }
 
 .card-face {
