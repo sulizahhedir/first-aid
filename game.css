@@ -71,7 +71,7 @@ body {
 }
 
 .game-info {
-  color: #E10C0C;
+  color: white;
   font-family: Gretoon;
   font-size: 1.5em;
 }
@@ -88,8 +88,8 @@ body {
 .card {
   position: relative;
   cursor: url("Assets/Cursors/GhostHover.cur"), auto;
-  height: 246px;
-  width: 200px;
+  height: 270px;
+  width: 240px;
 }
 
 .card-face {
